@@ -68,7 +68,7 @@ require(['gitbook'], function(gitbook) {
             }
 
             if (position === 'top') {
-                var section = document.body.querySelector('.markdown-section');
+                var section = document.body.querySelector('.page-wrapper');
                 section.insertBefore(nav, section.firstChild);
             } else {
                 var first = anchors.elements[0];
